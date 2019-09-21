@@ -3,11 +3,13 @@ public class Calendario {
 private byte dia;
 private byte mes;
 private int ano;
+private int data;
 
-void Calendario (byte dia, byte mes, int ano) {
+void Calendario (byte dia, byte mes, int ano, int data) {
 	this.dia = dia;
 	this.mes = mes;
 	this.ano = ano;
+	this.data = data;
 	}
 
 public byte getDia() {
